@@ -1,6 +1,6 @@
 import { sql } from 'bun'
 
-const version = 'v2-other'
+const version = 'v3-other'
 
 Bun.serve({
   port: Number(process.env.PORT ?? 8080),
